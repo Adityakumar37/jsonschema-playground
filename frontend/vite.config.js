@@ -9,5 +9,6 @@ export default defineConfig({
   ],
   optimizeDeps: {
     exclude: ['wasm-validator']
-  }
+  },
+  assetsInclude: ['**/*.wasm']
 })
