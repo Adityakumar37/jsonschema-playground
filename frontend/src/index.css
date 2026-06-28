@@ -297,6 +297,82 @@ body {
   color: var(--text-secondary);
 }
 
+/* RustSchema Section */
+.rustschema-section {
+  border-top: 1px solid var(--border-color);
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.rustschema-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--text-primary);
+  margin-bottom: 0.625rem;
+}
+
+.rustschema-description {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.rustschema-inline-code {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--text-primary);
+  background-color: var(--btn-disabled);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+
+.rustschema-install {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.rustschema-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+.rustschema-code {
+  background-color: #121214;
+  border: 1px solid #27272a;
+  border-radius: 6px;
+  padding: 0.875rem 1rem;
+  overflow-x: auto;
+  margin: 0;
+}
+
+.rustschema-code code {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: #f4f4f5;
+  white-space: pre;
+}
+
+.rustschema-link {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1px;
+  transition: border-color 0.15s ease;
+}
+
+.rustschema-link:hover {
+  border-color: var(--text-secondary);
+}
+
 /* Footer */
 .footer {
   margin-top: auto;

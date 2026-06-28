@@ -264,9 +264,29 @@ function App() {
         )}
       </main>
 
+      {/* RustSchema Section */}
+      <section className="rustschema-section">
+        <h2 className="rustschema-heading">RustSchema — VS Code Extension</h2>
+        <p className="rustschema-description">
+          Validate your JSON files automatically inside VS Code. No configuration needed. Add a <code className="rustschema-inline-code">$schema</code> key to your file and RustSchema handles the rest.
+        </p>
+        <div className="rustschema-install">
+          <span className="rustschema-label">Install in one command</span>
+          <pre className="rustschema-code"><code>curl -L https://github.com/adityakumar37/rustschema/releases/download/v0.0.1/rustschema-0.0.1.vsix -o rustschema.vsix && code --install-extension rustschema.vsix</code></pre>
+        </div>
+        <a
+          href="https://github.com/adityakumar37/rustschema"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rustschema-link"
+        >
+          View on GitHub
+        </a>
+      </section>
+
       {/* Footer */}
       <footer className="footer">
-        Powered by <a href="https://github.com/Stranger6667/jsonschema" target="_blank" rel="noopener noreferrer">Stranger6667/jsonschema</a> via WebAssembly
+        Built on the open source <a href="https://github.com/Stranger6667/jsonschema" target="_blank" rel="noopener noreferrer">jsonschema</a> library by Stranger6667
       </footer>
     </div>
   )
