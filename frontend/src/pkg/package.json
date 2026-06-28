@@ -1,0 +1,15 @@
+{
+  "name": "wasm-validator",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "wasm_validator_bg.wasm",
+    "wasm_validator.js",
+    "wasm_validator.d.ts"
+  ],
+  "main": "wasm_validator.js",
+  "types": "wasm_validator.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
